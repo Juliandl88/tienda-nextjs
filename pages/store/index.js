@@ -1,10 +1,11 @@
 import Link from "next/link"
+import Layout from "../../components/layouts"
+
 
 export default function index(){
-    return <div>
-        <h1>STORE</h1>
-        <Link href="/">
-            <a>Home</a>
-          </Link>
-    </div>
+    return (
+        <Layout>
+            <h1>Store</h1>
+        </Layout>
+    )
 }
