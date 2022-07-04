@@ -9,7 +9,7 @@ export default function Product({ item, showAs }) {
     );
   }
   if (showAs === "ListItem") {
-    return <div>List item</div>;
+    return <div>List Item</div>;
   }
 
   return (
@@ -36,7 +36,7 @@ export default function Product({ item, showAs }) {
 
       <div>${item.price}</div>
       <div>
-        <button>Add to cart</button>
+        <button>| Add to cart |</button>
       </div>
     </div>
   );
