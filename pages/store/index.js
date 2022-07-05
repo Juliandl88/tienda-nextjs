@@ -1,18 +1,17 @@
-import Link from "next/link";
-import Layout from "../../components/layouts";
-import { getItems } from "../../services/itemService";
-import Image from "next/image";
-import Product from "../../components/products";
-import style from "../../styles/product.module.css"
+import Layout from "../../components/layout";
+import Product from "../../components/product";
+import { getItems } from "../../services/storeService";
+import ShoppingCart from "../../components/shoppingCart";
 
-export default function index({ items }) {
+import styleProduct from "../../styles/product.module.css";
+
+export default function Index({ items }) {
   return (
     <Layout>
-      <h1>Store</h1>
-      <div className={style.items}>
+      <div className={styleProduct.items}>
         {items &&
           items.map((item) => (
-            <Product item={item} showAs="Default" key={item.id} />
+            <Product key={item.id} item={item} showAs="item" />
           ))}
       </div>
     </Layout>
