@@ -44,7 +44,7 @@ export default function handler(req, res) {
     },
     {
       id: 5,
-      title: "Glow in the Dark Sticker Pack",
+      title: "Glow Dark Sticker",
       price: 5,
       image: "http://localhost:3000/img/stickers02.webp",
       description:
@@ -60,7 +60,7 @@ export default function handler(req, res) {
     },
     {
       id: 7,
-      title: "Invertocat Pullover Hoodie",
+      title: "Pullover Hoodie",
       price: 10,
       image: "http://localhost:3000/img/pullover01.webp",
       description:
