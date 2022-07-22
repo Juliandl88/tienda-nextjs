@@ -6,7 +6,7 @@ export default function faq(){
     <Layout>
     <h1>FAQ</h1>
 <div>
-    <p>Preguntas frecuentes sobre nuestros productos</p>
+    <p>Preguntas frecuentes FAQ</p>
 </div>
 </Layout>
     )
